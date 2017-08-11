@@ -1,0 +1,174 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ruy fjh, ghjk, LIC=VGX2Z-J2Y5A-SYQVA-1HQZ5-8QH6K-J60B7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMCM1.DLL V1.17.0.0
+Target DLL:      CMSIS_AGDI.dll V1.27.5.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+E:\try\mkw01\Freescale\KW01_Connectivity_Software_1.0.0\whole\come.uvprojx
+Project File Date:  07/06/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Rebuild target 'MKW01'
+compiling ASPtemp.c...
+compiling PhyExtended.c...
+compiling SX123xDrv.c...
+compiling PhyPlmeData.c...
+compiling PhyPacketProcessor.c...
+compiling PhyPib.c...
+compiling PhyStateMachine.c...
+ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyStateMachine.c(345): warning:  #177-D: variable "ptr"  was declared but never referenced
+  	uint8_t ptr[5];
+ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyStateMachine.c: 1 warning, 0 errors
+compiling PhyISR.c...
+compiling PhyTime.c...
+compiling App.c...
+compiling thread.c...
+ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\thread.c(15): warning:  #940-D: missing return statement at end of non-void function "main_thread" 
+  }
+ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\thread.c: 1 warning, 0 errors
+compiling PhyDebug.c...
+compiling SPI.c...
+compiling gpio_pins.c...
+compiling pin_mux.c...
+compiling fsl_spi_hal.c...
+compiling fsl_gpio_driver.c...
+compiling fsl_gpio_hal.c...
+compiling fsl_port_hal.c...
+compiling fsl_osc_hal.c...
+compiling fsl_clock_MKW01Z4.c...
+compiling fsl_mcg_hal.c...
+compiling fsl_mcg_hal_modes.c...
+compiling fsl_sim_hal_MKW01Z4.c...
+compiling Messaging.c...
+compiling MemManager.c...
+compiling Panic.c...
+compiling FunctionLib.c...
+compiling fsl_clock_manager_common.c...
+compiling fsl_clock_manager.c...
+compiling GenericList.c...
+compiling clib_arm.c...
+compiling fsl_tpm_hal.c...
+assembling startup_MKW01Z4.s...
+compiling fsl_tpm_driver.c...
+compiling cmsis_os2.c...
+compiling system_MKW01Z4.c...
+compiling freertos_evr.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling heap_5.c...
+compiling port.c...
+compiling queue.c...
+compiling tasks.c...
+compiling timers.c...
+compiling FreeRTOS_Tick_Config.c...
+linking...
+Program Size: Code=26244 RO-data=892 RW-data=308 ZI-data=15860  
+FromELF: creating hex file...
+".\Objects\come.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ::CMSIS:RTOS2:2.1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS2 Version: 2.1.0
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-FreeRTOS.9.0.0.pack
+                ARM.FreeRTOS::RTOS:Timers:9.0.0
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Timers Version: 9.0.0
+   * Component: Heap Variant: Heap_5 Version: 9.0.0
+   * Component: Core Version: 9.0.0
+   * Component: Event Groups Version: 9.0.0
+   * Component: Config Variant: CMSIS RTOS2 Version: 9.0.0
+   * Component: Coroutines Version: 9.0.0
+   * Component: FreeRTOS Version: 9.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KWxx_DFP.1.5.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP Kinetis KWxx Series Device Support
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\RTOS
+  .\RTE\_MKW01
+  D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include
+  D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include
+  D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include
+  D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0
+  D:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS2:2.1.0 (API)
+      Include file:  CMSIS\RTOS2\Include\cmsis_os2.h
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:9.0.0
+      Source file:   Source\timers.c
+      Include file:  Source\include\timers.h
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_5:9.0.0
+      Source file:   Source\portable\MemMang\heap_5.c
+
+   * Component: ARM.FreeRTOS::RTOS:Core:9.0.0
+      Source file:   Source\list.c
+      Source file:   Source\portable\RVDS\ARM_CM0\port.c
+      Include file:  Source\include\task.h
+      Include file:  Source\include\FreeRTOS.h
+      Include file:  Source\include\queue.h
+      Source file:   Source\tasks.c
+      Include file:  Source\include\semphr.h
+      Source file:   Source\queue.c
+      Include file:  CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Event Groups:9.0.0
+      Include file:  Source\include\event_groups.h
+      Source file:   Source\event_groups.c
+
+   * Component: ARM.FreeRTOS::RTOS:Config:CMSIS RTOS2:9.0.0
+      Include file:  CMSIS\RTOS2\FreeRTOS\Config\FreeRTOS_Tick_Config.h
+      Source file:   CMSIS\RTOS2\FreeRTOS\Config\FreeRTOS_Tick_Config.c
+      Include file:  CMSIS\RTOS2\FreeRTOS\Config\ARMCM\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Coroutines:9.0.0
+      Source file:   Source\croutine.c
+      Include file:  Source\include\croutine.h
+
+   * Component: ARM::CMSIS:RTOS2:FreeRTOS:9.0.0
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_MKW01Z4.s
+      Source file:   Device\Source\system_MKW01Z4.c
+Build Time Elapsed:  00:00:55
+</pre>
+</body>
+</html>

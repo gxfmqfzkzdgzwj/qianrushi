@@ -1,0 +1,18 @@
+int main_thread (void) {
+
+//  LED_Initialize();                         /* Initialize the LEDs           */
+
+  tid_PWM_DA = osThreadCreate(osThread(PWM_DA_thread_func), NULL);
+  tid_AD = osThreadCreate(osThread(AD_thread_func), NULL);
+  tid_DMA_isr = osThreadCreate(osThread(DMA_isr_thread_func), NULL);
+  tid_DA_isr = osThreadCreate(osThread(DA_isr_thread_func), NULL);
+  tid_clock  = osThreadCreate(osThread(clock),  NULL);
+  tid_temper_apd = osThreadCreate(osThread(apd_temper_control), NULL);
+  tid_temper_fiber = osThreadCreate(osThread(fiber_temper_control), NULL);
+  tid_bias_drive = osThreadCreate(osThread(drive_bias),  NULL);
+	
+  osSignalSet(tid_PWM_DA, 0x0001);          /* set signal to phaseA thread   */
+
+  osDelay(osWaitForever);
+  while(1);
+}

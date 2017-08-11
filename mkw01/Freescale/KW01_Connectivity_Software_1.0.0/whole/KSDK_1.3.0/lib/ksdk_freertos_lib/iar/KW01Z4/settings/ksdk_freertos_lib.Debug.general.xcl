@@ -1,0 +1,13 @@
+"D:\ISR\arm\bin\armproc.dll" 
+
+"D:\ISR\arm\bin\armsim2.dll" 
+
+"C:\Freescale\KW01_Connectivity_Software_1.0.0\KSDK_1.3.0\lib\ksdk_freertos_lib\iar\KW01Z4\debug\psp_arm.out" 
+
+--plugin "D:\ISR\arm\bin\armbat.dll" 
+
+--device_macro "D:\ISR\arm\config\debugger\NXP\KLxx.dmac" 
+
+
+
+

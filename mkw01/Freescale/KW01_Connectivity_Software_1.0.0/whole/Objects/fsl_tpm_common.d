@@ -1,0 +1,13 @@
+.\objects\fsl_tpm_common.o: KSDK_1.3.0\platform\drivers\src\tpm\fsl_tpm_common.c
+.\objects\fsl_tpm_common.o: .\KSDK_1.3.0\platform\devices\fsl_device_registers.h
+.\objects\fsl_tpm_common.o: .\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h
+.\objects\fsl_tpm_common.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fsl_tpm_common.o: D:\keilMDK\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\fsl_tpm_common.o: D:\keilMDK\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\fsl_tpm_common.o: D:\keilMDK\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\fsl_tpm_common.o: D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h
+.\objects\fsl_tpm_common.o: .\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h
+.\objects\fsl_tpm_common.o: .\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h
+.\objects\fsl_tpm_common.o: .\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h
+.\objects\fsl_tpm_common.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\fsl_tpm_common.o: .\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h

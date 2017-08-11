@@ -1,0 +1,47 @@
+Release Name: MKW01     	Version: 5.1.3
+IEEE 802.15.4 Software
+
+
+Freescale Connectivity		Description: Freescale Connectivity Framework
+Framework			Middleware for Connectivity stacks
+				Version 5.1.3
+				Author: Freescale
+				License: Open Source - BSD-3-Clause
+				Format: source code
+				Location: ConnSw/framework
+								
+Freescale MAC			Description: Freescale 802.15.4 MAC
+				software for MKW01
+				Version 5.1.3
+				Author: Freescale
+				License: Proprietary.  See Freescale EULA
+				LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A,
+				MQX RTOS Code.
+				Format: object code
+				Location: ConnSw/ieee_802_15_4/Source/Mac
+
+Freescale PHY			Description: Freescale 802.15.4g PHY
+				software for MKW01
+				Version 5.1.3
+				Author: Freescale
+				License: Open Source - BSD-3-Clause
+				Format: source code
+				Location: ConnSw/ieee_802_15_4/Source/Phy
+				
+Freescale Connectivity		Description: Freescale connectivity
+SecLib                       	security library for Kinetis
+				Version 5.1.3
+				Author: Freescale
+				License: Proprietary.  See Freescale EULA
+				LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A,
+				MQX RTOS Code.
+				Format: object code
+				Location: ConnSw/framework/Utils/SecLib	
+				
+Freescale MyStarNetwork		Description: Freescale MyStarNetwork
+Demo                       	PC Demonstration Applicatiom
+				Version 1.1.0.0
+				Author: Freescale
+				License: Proprietary
+				Format: binary
+				Location: tools/MyStarNetwork Demo

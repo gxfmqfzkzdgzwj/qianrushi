@@ -1,0 +1,1229 @@
+Dependencies for Project 'come', Target 'MKW01': (DO NOT MODIFY !)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\ASPtemp.c)(0x595312E8)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\asptemp.o --omf_browse .\objects\asptemp.crf --depend .\objects\asptemp.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\AspInterface.h)(0x59468642)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\MpmInterface.h)(0x559E3D54)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.h)(0x59292A94)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.c)(0x5961F969)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\sx123xdrv.o --omf_browse .\objects\sx123xdrv.crf --depend .\objects\sx123xdrv.d)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi\SPI.h)(0x550AF026)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.c)(0x5919A2C6)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phyextended.o --omf_browse .\objects\phyextended.crf --depend .\objects\phyextended.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.h)(0x59292A94)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPacketProcessor.c)(0x5950BEB7)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phypacketprocessor.o --omf_browse .\objects\phypacketprocessor.crf --depend .\objects\phypacketprocessor.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.h)(0x59292A94)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyTime.h)(0x550AE67E)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyISR.h)(0x59292268)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.c)(0x5919AC28)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phypib.o --omf_browse .\objects\phypib.crf --depend .\objects\phypib.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.h)(0x59292A94)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPlmeData.c)(0x5946862C)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phyplmedata.o --omf_browse .\objects\phyplmedata.crf --depend .\objects\phyplmedata.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.h)(0x59292A94)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyISR.h)(0x59292268)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyTime.h)(0x550AE67E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyStateMachine.c)(0x596B0922)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phystatemachine.o --omf_browse .\objects\phystatemachine.crf --depend .\objects\phystatemachine.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\FunctionLib\FunctionLib.h)(0x561CBE16)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Panic\Interface\Panic.h)(0x5620F17E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyISR.h)(0x59292268)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyTime.h)(0x550AE67E)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\AspInterface.h)(0x59468642)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\MpmInterface.h)(0x559E3D54)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\thread.h)(0x59647778)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyTime.c)(0x5951BB9F)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phytime.o --omf_browse .\objects\phytime.crf --depend .\objects\phytime.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\framework\FunctionLib\FunctionLib.h)(0x561CBE16)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyTime.h)(0x550AE67E)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyISR.h)(0x59292268)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_tpm_driver.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_tpm_hal.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_interrupt_manager.h)(0x591175FC)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyISR.c)(0x59678160)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phyisr.o --omf_browse .\objects\phyisr.crf --depend .\objects\phyisr.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\framework\FunctionLib\FunctionLib.h)(0x561CBE16)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyPib.h)(0x5919ABA0)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyExtended.h)(0x59292A94)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyISR.h)(0x59292268)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyTime.h)(0x550AE67E)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\PhyDebug.c)(0x55DEFC9A)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\phydebug.o --omf_browse .\objects\phydebug.crf --depend .\objects\phydebug.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xDrv.h)(0x55706470)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv\SX123xReg32MHz.h)(0x591C579C)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\Phydebug.h)(0x5509AD38)
+F (.\ConnSw\examples\ieee_802_15_4\MAC_LE_Demo\Coordinator\common\App.c)(0x5964791B)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\AspInterface.h)(0x59468642)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\MpmInterface.h)(0x559E3D54)
+I (.\ConnSw\framework\FunctionLib\FunctionLib.h)(0x561CBE16)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\thread.h)(0x59647778)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\thread.c)(0x5966CFFA)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\thread.h)(0x59647778)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\Phy.h)(0x5954CBC8)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyInterface.h)(0x5633348E)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyTypes.h)(0x5912EE04)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\PhyMessages.h)(0x5509AD38)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\AspInterface.h)(0x59468642)
+I (.\ConnSw\ieee_802_15_4\Source\Phy\Interface\MpmInterface.h)(0x559E3D54)
+F (.\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi\SPI.c)(0x5961F748)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi\SPI.h)(0x550AF026)
+I (.\ConnSw\boards\frdmkw019032\board.h)(0x561E5DD4)
+I (.\ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_spi_hal.h)(0x592927C6)
+F (.\ConnSw\boards\frdmkw019032\gpio_pins.c)(0x560A8AD4)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\gpio_pins.o --omf_browse .\objects\gpio_pins.crf --depend .\objects\gpio_pins.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (ConnSw\boards\frdmkw019032\gpio_pins.h)(0x560A9238)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\ConnSw\boards\frdmkw019032\pin_mux.c)(0x595F3C3A)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (ConnSw\boards\frdmkw019032\pin_mux.h)(0x560B9A18)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+F (.\KSDK_1.3.0\platform\drivers\src\gpio\fsl_gpio_driver.c)(0x59632858)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_gpio_driver.o --omf_browse .\objects\fsl_gpio_driver.crf --depend .\objects\fsl_gpio_driver.d)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_gpio_driver.h)(0x59116262)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_interrupt_manager.h)(0x591175FC)
+F (.\KSDK_1.3.0\platform\hal\src\spi\fsl_spi_hal.c)(0x5584056C)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_spi_hal.o --omf_browse .\objects\fsl_spi_hal.crf --depend .\objects\fsl_spi_hal.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_spi_hal.h)(0x592927C6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+F (.\KSDK_1.3.0\platform\hal\src\gpio\fsl_gpio_hal.c)(0x59191CC0)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_gpio_hal.o --omf_browse .\objects\fsl_gpio_hal.crf --depend .\objects\fsl_gpio_hal.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_gpio_hal.h)(0x59116258)
+I (D:\keilMDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keilMDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+F (.\KSDK_1.3.0\platform\hal\src\port\fsl_port_hal.c)(0x55840516)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_port_hal.o --omf_browse .\objects\fsl_port_hal.crf --depend .\objects\fsl_port_hal.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_port_hal.h)(0x596327EF)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+F (.\KSDK_1.3.0\platform\system\src\clock\MKW01Z4\fsl_clock_MKW01Z4.c)(0x5584056C)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_clock_mkw01z4.o --omf_browse .\objects\fsl_clock_mkw01z4.crf --depend .\objects\fsl_clock_mkw01z4.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+F (.\KSDK_1.3.0\platform\hal\src\osc\fsl_osc_hal.c)(0x591EFCC2)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_osc_hal.o --omf_browse .\objects\fsl_osc_hal.crf --depend .\objects\fsl_osc_hal.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+F (.\KSDK_1.3.0\platform\hal\src\mcg\fsl_mcg_hal.c)(0x5911920A)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_mcg_hal.o --omf_browse .\objects\fsl_mcg_hal.crf --depend .\objects\fsl_mcg_hal.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+F (.\KSDK_1.3.0\platform\hal\src\mcg\fsl_mcg_hal_modes.c)(0x55DC5588)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_mcg_hal_modes.o --omf_browse .\objects\fsl_mcg_hal_modes.crf --depend .\objects\fsl_mcg_hal_modes.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+F (.\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4\fsl_sim_hal_MKW01Z4.c)(0x55840516)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_sim_hal_mkw01z4.o --omf_browse .\objects\fsl_sim_hal_mkw01z4.crf --depend .\objects\fsl_sim_hal_mkw01z4.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+F (.\KSDK_1.3.0\platform\system\src\clock\fsl_clock_manager.c)(0x5950BD97)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_clock_manager.o --omf_browse .\objects\fsl_clock_manager.crf --depend .\objects\fsl_clock_manager.d)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_rtc_hal.h)(0x5911764A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+F (.\KSDK_1.3.0\platform\system\src\clock\fsl_clock_manager_common.c)(0x5584056C)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_clock_manager_common.o --omf_browse .\objects\fsl_clock_manager_common.crf --depend .\objects\fsl_clock_manager_common.d)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+F (.\ConnSw\framework\Messaging\Source\Messaging.c)(0x59473FEA)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\messaging.o --omf_browse .\objects\messaging.crf --depend .\objects\messaging.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\Messaging\Interface\Messaging.h)(0x5912F208)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+F (.\ConnSw\framework\MemManager\Source\MemManager.c)(0x59474013)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\memmanager.o --omf_browse .\objects\memmanager.crf --depend .\objects\memmanager.d)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\ConnSw\framework\Panic\Interface\Panic.h)(0x5620F17E)
+I (.\ConnSw\framework\MemManager\Interface\MemManager.h)(0x562F9058)
+I (.\ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+F (.\ConnSw\framework\Panic\Source\Panic.c)(0x5950795C)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\panic.o --omf_browse .\objects\panic.crf --depend .\objects\panic.d)
+I (.\ConnSw\framework\Panic\Interface\panic.h)(0x5620F17E)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (.\ConnSw\framework\FunctionLib\FunctionLib.c)(0x5604FF04)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\functionlib.o --omf_browse .\objects\functionlib.crf --depend .\objects\functionlib.d)
+I (ConnSw\framework\FunctionLib\FunctionLib.h)(0x561CBE16)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (.\ConnSw\framework\Lists\GenericList.c)(0x5947409D)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\genericlist.o --omf_browse .\objects\genericlist.crf --depend .\objects\genericlist.d)
+I (ConnSw\framework\Lists\GenericList.h)(0x59146CD8)
+I (.\ConnSw\framework\Common\EmbeddedTypes.h)(0x559E3C9A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+F (.\KSDK_1.3.0\platform\drivers\src\tpm\fsl_tpm_driver.c)(0x5962243B)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_tpm_driver.o --omf_browse .\objects\fsl_tpm_driver.crf --depend .\objects\fsl_tpm_driver.d)
+I (.\KSDK_1.3.0\platform\drivers\inc\fsl_tpm_driver.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_tpm_hal.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_interrupt_manager.h)(0x591175FC)
+I (.\KSDK_1.3.0\platform\system\inc\fsl_clock_manager.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_sim_hal.h)(0x5584056A)
+I (.\KSDK_1.3.0\platform\hal\inc\../src/sim/MKW01Z4/fsl_sim_hal_MKW01Z4.h)(0x591175C0)
+I (.\KSDK_1.3.0\platform\system\inc\../src/clock/MKW01Z4/fsl_clock_MKW01Z4.h)(0x59508694)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal.h)(0x5911761A)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_mcg_hal_modes.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_osc_hal.h)(0x5911761A)
+F (.\KSDK_1.3.0\platform\hal\src\tpm\fsl_tpm_hal.c)(0x5584056C)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\fsl_tpm_hal.o --omf_browse .\objects\fsl_tpm_hal.crf --depend .\objects\fsl_tpm_hal.d)
+I (.\KSDK_1.3.0\platform\hal\inc\fsl_tpm_hal.h)(0x55DC5588)
+I (.\KSDK_1.3.0\platform\devices\fsl_device_registers.h)(0x592E7F88)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_extension.h)(0x5912841C)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/fsl_bitaccess.h)(0x595F0472)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4/include/MKW01Z4_features.h)(0x55A8AD84)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\assert.h)(0x57F606B6)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x589C5B92)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\clib_arm.o --omf_browse .\objects\clib_arm.crf --depend .\objects\clib_arm.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x58C6593D)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\cmsis_os2.o --omf_browse .\objects\cmsis_os2.crf --depend .\objects\cmsis_os2.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58984990)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\semphr.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\queue.h)(0x589C5BAD)
+F (RTE\Device\MKW01Z128xxx4\startup_MKW01Z4.s)(0x59643FD6)(--cpu Cortex-M0+ --pd "__RTX SETA 1" -g --apcs=interwork -ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "MKW01Z128xxx4 SETA 1"--list .\listings\startup_mkw01z4.lst --xref -o .\objects\startup_mkw01z4.o --depend .\objects\startup_mkw01z4.d)
+F (RTE\Device\MKW01Z128xxx4\system_MKW01Z4.c)(0x59293CE8)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\system_mkw01z4.o --omf_browse .\objects\system_mkw01z4.crf --depend .\objects\system_mkw01z4.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x58BD2692)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\freertos_evr.o --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\semphr.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\queue.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\croutine.c)(0x589C5BAC)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\croutine.h)(0x589C5BAC)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\event_groups.c)(0x589C5BAC)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\event_groups.h)(0x589C5BAD)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\list.c)(0x589C5BAD)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\MemMang\heap_5.c)(0x589C5BAD)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\heap_5.o --omf_browse .\objects\heap_5.crf --depend .\objects\heap_5.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\port.c)(0x589C5BAD)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\queue.c)(0x589C5BAD)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\queue.h)(0x589C5BAD)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\tasks.c)(0x589C5BAD)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\StackMacros.h)(0x589C5BAC)
+F (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\timers.c)(0x589C5BAD)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\task.h)(0x5950BD64)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\list.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\queue.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\timers.h)(0x589C5BAD)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)()
+F (RTE\RTOS\FreeRTOS_Tick_Config.c)(0x58C28724)(-c --cpu Cortex-M0+ -D__RTX -g -O0 --apcs=interwork --split_sections -I .\KSDK_1.3.0\platform\CMSIS -I .\KSDK_1.3.0\platform\devices\MKW01Z4 -I .\KSDK_1.3.0\platform\hal -I .\KSDK_1.3.0\platform\drivers\src -I .\KSDK_1.3.0\platform\drivers\src\spi -I .\KSDK_1.3.0\platform\drivers\inc -I .\KSDK_1.3.0\platform\devices\MKW01Z4\include -I .\KSDK_1.3.0\platform\devices -I D:\keilMDK\ARM\ARMCC\include -I .\RTE\Device\MKW01Z128xxx4 -I D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include -I D:\keilMDK\ARM\ARMCC\include -I .\ConnSw\boards\frdmkw019032 -I .\KSDK_1.3.0\platform\system\inc -I .\KSDK_1.3.0\platform\hal\src\sim\MKW01Z4 -I .\ConnSw\framework\Common -I .\KSDK_1.3.0\platform\hal\inc -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x -I .\ConnSw\ieee_802_15_4\Source\Phy\Interface -I .\ConnSw\framework\Messaging\Interface -I .\ConnSw\framework\Lists -I .\ConnSw\framework\MemManager\Interface -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\XcvrSpi -I .\ConnSw\ieee_802_15_4\Source\Phy\Source\MKW0x\SX123xDrv -I .\ConnSw\framework\FunctionLib -I .\ConnSw\framework\Panic\Interface -I .\ConnSw\framework\GPIOIrq -I .\ConnSw\examples\ieee_802_15_4\MAC_FSCI_app\common -I .\RTE\_MKW01 --c99-ID:\keil\ARM\RV31\Inc-I.\RTE\RTOS-I.\RTE\_MKW01-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include-ID:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include-ID:\keil\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.5.0-D__UVISION_VERSION="523" -D_RTE_ -DMKW01Z128xxx4 -DCPU_MKW01Z128CHN4 -DgPHY_802_15_4g_d -DgAspCapability_d -DFSL_RTOS_FREE_RTOS-o .\objects\freertos_tick_config.o --omf_browse .\objects\freertos_tick_config.crf --depend .\objects\freertos_tick_config.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h)(0x59473E88)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x58C28724)
+I (.\RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)
+I (.\RTE\_MKW01\RTE_Components.h)(0x595C336D)
+I (.\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h)(0x5912844A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h)(0x53268648)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x58BD2692)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\projdefs.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\portable.h)(0x589C5BAD)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\deprecated_definitions.h)(0x589C5BAC)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x59473E53)
+I (D:\keil\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\mpu_wrappers.h)(0x589C5BAD)
+F (RTE\RTOS\FreeRTOS_Tick_Config.h)(0x59472B24)()

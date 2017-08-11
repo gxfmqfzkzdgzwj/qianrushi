@@ -1,0 +1,15 @@
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os1.c
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\CMSIS\RTOS2\FreeRTOS\Include1\cmsis_os.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include\cmsis_os2.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\PACK\ARM\FreeRTOS\ARM.CMSIS-FreeRTOS.9.0.0\Source\include\FreeRTOS.h
+.\objects\cmsis_os1.o: E:\try\mkw01\Freescale\KW01_Connectivity_Software_1.0.0\whole\RTE\RTOS\FreeRTOSConfig.h
+.\objects\cmsis_os1.o: E:\try\mkw01\Freescale\KW01_Connectivity_Software_1.0.0\whole\RTE\RTOS\FreeRTOS_Tick_Config.h
+.\objects\cmsis_os1.o: E:\try\mkw01\Freescale\KW01_Connectivity_Software_1.0.0\whole\RTE\RTE_Components.h
+.\objects\cmsis_os1.o: .\KSDK_1.3.0\platform\devices\MKW01Z4\include\MKW01Z4.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\cmsis_os1.o: D:\keilMDK\ARM\Pack\Keil\Kinetis_KWxx_DFP\1.5.0\Device\Include\system_MKW01Z4.h
